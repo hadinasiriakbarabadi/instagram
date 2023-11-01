@@ -13,7 +13,5 @@ class InstagramBot:
         self.client.photo_upload(image,caption)
     def post_album(self,caption,images):
         self.client.album_upload(images,caption)
-ig_bot=InstagramBot('username','password')
-ig_bot.sign_in()
-ig_bot.post('image.jpg','caption')
-
+    
+    
